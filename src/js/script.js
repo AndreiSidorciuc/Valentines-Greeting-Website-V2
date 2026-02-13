@@ -7,15 +7,15 @@ const translations = {
     loveBtnBlocked: "Повернись через 24 години 💔",
     runawayBtn: "Не кохаю",
     message1:
-      "Кохання — це коли кожен день з тобою стає святом.<br />Дякую за твою усмішку, тепло і підтримку.<br />Я безмежно щасливий(а), що ти є в моєму житті.",
+      "Кохання — це коли кожен день з тобою стає святом.<br />Дякую за твою усмішку, тепло і підтримку.<br />Я безмежно щасливий, що ти є в моєму житті.",
     message2:
-      "Нехай цей День Закоханих стане ще одним красивим спогадом для нас 💕",
+      "Нехай цей День Закоханих стане ще одним красивим спогадом для нас! 💕",
     footer: "З любов'ю 💌 | 14 лютого",
     slides: [
       "Ти - моє сонце у похмурий день ☀️",
       "Кожна мить з тобою - це магія ✨",
       "Ти робиш моє життя яскравішим 🌈",
-      "З тобою я по-справжньому щасливий(а) 💕",
+      "З тобою я по-справжньому щасливий 💕",
       "Дякую, що ти є в моєму житті! ❤️",
       "Твоя усмішка - найкраще, що я бачу кожен день 😊",
       "Поруч з тобою я вдома, де б ми не були 🏡",
@@ -50,7 +50,7 @@ const translations = {
     message1:
       "Liebe ist, wenn jeder Tag mit dir zum Fest wird.<br />Danke für dein Lächeln, deine Wärme und Unterstützung.<br />Ich bin unendlich glücklich, dass du in meinem Leben bist.",
     message2:
-      "Möge dieser Valentinstag eine weitere schöne Erinnerung für uns werden 💕",
+      "Möge dieser Valentinstag eine weitere schöne Erinnerung für uns werden! 💕",
     footer: "Mit Liebe 💌 | 14. Februar",
     slides: [
       "Du bist meine Sonne an trüben Tagen ☀️",
@@ -91,7 +91,7 @@ const translations = {
     message1:
       "Love is when every day with you becomes a celebration.<br />Thank you for your smile, warmth and support.<br />I'm infinitely happy that you're in my life.",
     message2:
-      "May this Valentine's Day become another beautiful memory for us 💕",
+      "May this Valentine's Day become another beautiful memory for us! 💕",
     footer: "With love 💌 | February 14th",
     slides: [
       "You are my sunshine on a cloudy day ☀️",
@@ -339,7 +339,7 @@ function changeSlide(dir) {
 
 function startAutoSlide() {
   stopAutoSlide();
-  autoSlideInterval = setInterval(() => changeSlide(1), 3000);
+  autoSlideInterval = setInterval(() => changeSlide(1), 5000);
 }
 
 function stopAutoSlide() {
